@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply p-8 bg-primary text-primary
+}
+
+h2 {
+  @apply p-4 text-2xl font-bold
+}
+
+nav a {
+  @apply text-primary p-4 font-bold
+}
+
+a button {
+  @apply text-primary font-bold p-4 bg-slate-800 hover:text-secondary hover:bg-slate-950 rounded
+}
+
+nav h1 {
+  @apply p-4 font-bold text-secondary text-xl
+}
+
+.card {
+  @apply m-4 p-4 text-dark bg-slate-300 font-bold relative text-lg pb-8 hover:bg-slate-400
+}
+
+.card h2 {
+  @apply px-0
+}
+
+.card p {
+  @apply font-normal text-base
+}
+
+
+.card .pill {
+  @apply absolute bottom-0 right-0 rounded-tl-md text-xs font-normal
+}
+
+.pill.low {
+  @apply p-1 bg-red-200
+}
+
+.pill.medium {
+  @apply p-1 bg-red-400
+}
+
+.pill.high {
+  @apply p-1 bg-red-600 text-red-50 font-bold
+}
+
+
+hr {
+  @apply text-slate-600
+}
+
+
+small {
+  @apply font-normal text-xs
+}
+
+label {
+  @apply flex justify-between p-4
+}
+
+select {
+  @apply text-dark p-2 w-3/4
+}
+
+input {
+  @apply text-dark p-2 w-3/4
+}
