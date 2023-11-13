@@ -17,7 +17,7 @@ export default function ResolveButton({ id }: { id: string }) {
       router.push("/tickets")
     }
 
-  }, [id])
+  }, [id, router])
 
   return (
     <button className="bg-slate-500 p-2 w-1/8 right-0 block absolute mr-12" onClick={handleResolve}>Resolve</button>

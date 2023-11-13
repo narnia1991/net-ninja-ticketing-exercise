@@ -29,7 +29,7 @@ export default function CreateForm() {
       router.push("/tickets")
     }
     setIsLoading(false)
-  }, [isLoading])
+  }, [isLoading, router])
 
   return (
     <form action="" onSubmit={handleSubmit} className="w-1/2 self-center flex flex-col m-auto" ref={formRef}>
